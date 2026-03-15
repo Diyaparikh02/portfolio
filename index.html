@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Diya Parikh — Data Analyst</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;600;700&family=Azeret+Mono:wght@400;600;700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+</head>
+<body>
+
+  <div class="scanlines"></div>
+  <div id="scrollProgress"></div>
+
+  <!-- NAV -->
+  <nav id="navbar" class="terminal-nav">
+    <div class="nav-inner">
+      <div class="nav-logo">
+        diya_parikh@portfolio
+      </div>
+      <ul class="nav-links">
+        <li><a href="#hero"><span class="bracket">[</span>home<span class="bracket">]</span></a></li>
+        <li><a href="#projects"><span class="bracket">[</span>work<span class="bracket">]</span></a></li>
+        <li><a href="#skills"><span class="bracket">[</span>skills<span class="bracket">]</span></a></li>
+        <li><a href="#education"><span class="bracket">[</span>education<span class="bracket">]</span></a></li>
+        <li><a href="#certifications"><span class="bracket">[</span>certifications<span class="bracket">]</span></a></li>
+      </ul>
+      <button type="button" class="burger" id="burger"><span></span><span></span><span></span></button>
+    </div>
+  </nav>
+
+  <!-- SCROLL PROGRESS -->
+  <div id="scrollProgress"></div>
+
+  <!-- HERO -->
+  <section id="hero" class="hero-terminal">
+    <canvas id="particleCanvas"></canvas>
+    <div class="hero-scanlines"></div>
+    
+    <div class="hero-content">
+      <div class="glitch-text-container">
+        <h1 class="hero-glitch">
+          <span class="glitch-line"><span class="name-accent">DIYA'S</span></span>
+          <span class="glitch-line"><span class="name-accent">PORTFOLIO</span></span>
+        </h1>
+      </div>
+      
+      <div class="hero-subtitle">
+        <span class="prompt">→</span> Aspiring Data Analyst | Data Enthusiast
+      </div>
+
+      <div class="hero-buttons">
+        <a href="#projects" class="terminal-btn btn-primary">
+          <span class="btn-border">▌</span> View Work <span class="btn-border">▌</span>
+        </a>
+        <a href="#" class="terminal-btn btn-secondary" id="downloadResume" onclick="downloadResume(event)">
+          <i class="fas fa-download"></i> Download Resume
+        </a>
+        <a href="https://github.com/Diyaparikh02" target="_blank" class="terminal-btn btn-secondary">
+          <i class="fab fa-github"></i> GitHub
+        </a>
+        <a href="https://www.linkedin.com/in/diya-parikh-b04383311" target="_blank" class="terminal-btn btn-secondary" onclick="window.open('https://www.linkedin.com/in/diya-parikh-b04383311', '_blank'); return false;">
+          <i class="fab fa-linkedin"></i> LinkedIn
+        </a>
+      </div>
+      <div class="email-display">
+        <span class="prompt">→</span> diyaparikh2368@gmail.com
+      </div>
+
+    </div>
+
+    <div class="scroll-hint">
+      <span class="prompt">→</span> scroll to begin <span class="cursor-blink">_</span>
+    </div>
+  </section>
+
+
+
+
+
+
+
+  <!-- PROJECTS -->
+  <section id="projects" class="section-terminal section-alt">
+    <div class="section-header-path">/projects</div>
+    <div class="container">
+      <h2 class="section-title">Featured Projects</h2>
+      
+      <div class="projects-grid">
+
+        <div class="project-card">
+          <div class="project-tag">DATA ANALYSIS</div>
+          <h3>Telecom Customer Churn Analysis</h3>
+          <p>Conducted an end-to-end analysis of telecom customer data to understand key factors influencing customer churn and revenue loss. Performed detailed exploratory analysis to evaluate churn patterns across contract types, tenure groups, internet services, and payment methods. Built an interactive dashboard highlighting KPIs such as total customers, churn rate, retained customers, and revenue loss, providing actionable insights for customer retention strategies.</p>
+          <div class="project-tech">
+            <span class="tech">Python</span>
+            <span class="tech">SQL</span>
+            <span class="tech">Excel</span>
+            <span class="tech">Data Analysis</span>
+          </div>
+          <a href="https://github.com/Diyaparikh02/telecom-customer-churn-analysis" target="_blank" class="project-link">
+            <i class="fab fa-github"></i> View Source
+          </a>
+        </div>
+
+        <div class="project-card">
+          <div class="project-tag">DATA ANALYSIS</div>
+          <h3>Retail Business Analytics: Sales, Profitability & Operational Insights</h3>
+          <p>Built an end-to-end retail data analytics project to analyze sales performance, profitability drivers, and customer trends. Cleaned and prepared datasets using Python, performed structured business analysis using SQL with joins, aggregations, and window functions. Created an interactive Power BI dashboard to visualize KPIs, sales trends, product performance, and regional insights. Key analysis included sales trends, product profitability, customer segmentation, discount impact, and regional performance.</p>
+          <div class="project-tech">
+            <span class="tech">Python</span>
+            <span class="tech">SQL</span>
+            <span class="tech">Power BI</span>
+            <span class="tech">Data Analysis</span>
+          </div>
+          <a href="https://github.com/Diyaparikh02/Retail-Business-Intelligence-Sales-Profitability-Operational-Insights" target="_blank" class="project-link">
+            <i class="fab fa-github"></i> View Source
+          </a>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section id="skills" class="section-terminal">
+    <div class="section-header-path">/skills</div>
+    <div class="container">
+      <h2 class="section-title">Technical Skillset</h2>
+      
+      <div class="skills-container">
+        <div class="skill-category">
+          <h3 class="skill-category-title">
+            <i class="fas fa-code"></i> Programming
+          </h3>
+          <div class="skills-grid">
+            <div class="skill-card">
+              <div class="skill-name">Python</div>
+            </div>
+            <div class="skill-card">
+              <div class="skill-name">SQL</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="skill-category">
+          <h3 class="skill-category-title">
+            <i class="fas fa-chart-line"></i> Data Analysis
+          </h3>
+          <div class="skills-grid">
+            <div class="skill-card">
+              <div class="skill-name">Pandas</div>
+            </div>
+            <div class="skill-card">
+              <div class="skill-name">NumPy</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="skill-category">
+          <h3 class="skill-category-title">
+            <i class="fas fa-palette"></i> Visualization
+          </h3>
+          <div class="skills-grid">
+            <div class="skill-card">
+              <div class="skill-name">Power BI</div>
+            </div>
+            <div class="skill-card">
+              <div class="skill-name">Tableau</div>
+            </div>
+            <div class="skill-card">
+              <div class="skill-name">Matplotlib</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="skill-category">
+          <h3 class="skill-category-title">
+            <i class="fas fa-tools"></i> Tools & Platforms
+          </h3>
+          <div class="skills-grid">
+            <div class="skill-card">
+              <div class="skill-name">Excel</div>
+            </div>
+            <div class="skill-card">
+              <div class="skill-name">Git</div>
+            </div>
+            <div class="skill-card">
+              <div class="skill-name">GitHub</div>
+            </div>
+            <div class="skill-card">
+              <div class="skill-name">VS Code</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- EDUCATION -->
+  <section id="education" class="section-terminal section-alt">
+    <div class="section-header-path">/education</div>
+    <div class="container">
+      <h2 class="section-title">Education</h2>
+      
+      <div class="education-timeline">
+        <div class="education-card">
+          <div class="education-header">
+            <div class="education-degree">Computer Science Engineering</div>
+            <div class="education-year">2022 - 2026</div>
+          </div>
+          <div class="education-institution">Indus University</div>
+          <div class="education-location">
+            <i class="fas fa-map-marker-alt"></i> Ahmedabad
+          </div>
+          <div class="education-progress">
+            <div class="progress-bar">
+              <div class="progress-fill"></div>
+            </div>
+            <span class="progress-text">In Progress</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CERTIFICATIONS -->
+  <section id="certifications" class="section-terminal">
+    <div class="section-header-path">/certifications</div>
+    <div class="container">
+      <h2 class="section-title">Certifications & Credentials</h2>
+      
+      <div class="certifications-grid">
+        <div class="cert-card">
+          <div class="cert-icon">
+            <i class="fas fa-certificate"></i>
+          </div>
+          <h3>Learn Java Programming Beginner to Master</h3>
+          <p class="cert-issuer">Udemy</p>
+          <a href="DOC-20230926-WA0001.pdf" class="cert-link" target="_blank">
+            <i class="fas fa-external-link-alt"></i> View Certificate
+          </a>
+        </div>
+
+        <div class="cert-card">
+          <div class="cert-icon">
+            <i class="fas fa-certificate"></i>
+          </div>
+          <h3>AWS Academy Machine Learning for Natural Language Processing</h3>
+          <p class="cert-issuer">Amazon Web Services (AWS)</p>
+          <a href="DOC-20250915-WA0000.pdf" class="cert-link" target="_blank">
+            <i class="fas fa-external-link-alt"></i> View Certificate
+          </a>
+        </div>
+
+        <div class="cert-card">
+          <div class="cert-icon">
+            <i class="fas fa-certificate"></i>
+          </div>
+          <h3>Data Analysis and Visualization</h3>
+          <p class="cert-issuer">Indus University</p>
+          <a href="Adobe Scan Feb 13, 2026-1.pdf" class="cert-link" target="_blank">
+            <i class="fas fa-external-link-alt"></i> View Certificate
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer id="footer">
+    <div class="terminal-footer">
+      <p><span class="prompt">$</span> © 2026 DIYA PARIKH. All rights pixelated.</p>
+      <p class="footer-cmd">diya_parikh@portfolio<span class="cursor-blink">_</span></p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

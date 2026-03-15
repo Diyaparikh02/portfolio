@@ -1,0 +1,87 @@
+================================================================================
+                            DIYA PARIKH
+                        Data Analyst | Data Enthusiast
+================================================================================
+
+CONTACT INFORMATION
+────────────────────────────────────────────────────────────────────────────────
+Email: diyaparikh2368@gmail.com
+GitHub: https://github.com/Diyaparikh02
+LinkedIn: https://linkedin.com/in/diyaparikh02
+
+
+PROFESSIONAL SUMMARY
+────────────────────────────────────────────────────────────────────────────────
+Passionate data enthusiast with expertise in transforming raw datasets into 
+meaningful insights. Proficient in Python, SQL, and Power BI with a keen eye 
+for identifying patterns, solving problems, and guiding data-driven decision-
+making. Driven by curiosity and armed with analytical rigour combined with 
+creative thinking.
+
+
+TECHNICAL SKILLS
+────────────────────────────────────────────────────────────────────────────────
+Programming Languages:    Python, SQL, Excel VBA
+Data Tools & Libraries:   Pandas, Power BI, Matplotlib, Seaborn
+Databases:                MySQL, PostgreSQL
+Data Analysis:            Data Visualization, Exploratory Data Analysis (EDA),
+                          Business Intelligence, Dashboard Development
+
+
+FEATURED PROJECTS
+────────────────────────────────────────────────────────────────────────────────
+
+1. TELECOM CUSTOMER CHURN ANALYSIS
+   Conducted an end-to-end analysis of telecom customer data to understand the 
+   key factors influencing customer churn and revenue loss. Performed detailed 
+   exploratory analysis to evaluate churn patterns across contract types, tenure 
+   groups, internet services, and payment methods, and identified high-risk 
+   segments such as month-to-month customers and low-tenure users.
+   
+   Analyzed revenue impact by quantifying monthly revenue lost due to churn and 
+   identifying high-value customers at risk. Built an interactive dashboard 
+   highlighting KPIs such as total customers, churn rate, retained customers, 
+   and revenue loss, along with visualizations for contract-based churn, tenure 
+   trends, and customer value segmentation. The analysis provides actionable 
+   insights that help businesses prioritize high-value customers, improve 
+   retention strategies, and reduce potential revenue loss.
+   
+   Technologies: Python, SQL, Pandas, Power BI, Data Analysis
+
+2. RETAIL BUSINESS ANALYTICS: SALES, PROFITABILITY & OPERATIONAL INSIGHTS
+   Built an end-to-end retail data analytics project to analyze sales 
+   performance, profitability drivers, and customer trends.
+   
+   Cleaned and prepared the dataset using Python, performed structured business 
+   analysis using SQL (joins, aggregations, window functions), and created an 
+   interactive Power BI dashboard to visualize KPIs, sales trends, product 
+   performance, and regional insights.
+   
+   Key analysis included sales trends, product profitability, customer 
+   segmentation, discount impact, and regional performance. Transforming complex 
+   retail data into actionable insights for strategic decision-making.
+   
+   Technologies: Python, SQL, Power BI, Pandas, Data Modeling
+
+
+CORE COMPETENCIES
+────────────────────────────────────────────────────────────────────────────────
+• Data Analysis & Visualization        • Business Intelligence
+• Statistical Analysis                 • Dashboard Development
+• Data Cleaning & Preparation         • SQL Query Optimization
+• Python Data Science                 • Power BI Reporting
+• Exploratory Data Analysis (EDA)     • Problem Solving
+
+
+PHILOSOPHY
+────────────────────────────────────────────────────────────────────────────────
+Data → Questions → Insights → Action
+
+Every number has a story. My mission is to uncover those stories through 
+rigorous analysis and compelling visualization.
+
+
+================================================================================
+                    Portfolio: https://portfolio.example.com
+                         Last Updated: March 2026
+================================================================================
